@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useState, useRef, useEffect } from 'react';
 import LoginModal from '../Auth/LoginModal';
-import RegisterModal from '../Register/RegisterModal';
+import RegisterModal from '../Auth/RegisterModal';
 
 export default function Header({ isLoggedIn, onLogout, role }) {
     const [isRegisterOpen, setRegisterOpen] = useState(false);
